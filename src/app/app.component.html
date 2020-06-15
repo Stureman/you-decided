@@ -1,0 +1,19 @@
+<div class="container">  
+    <div class="form-group">
+      <h1 class="text-center text-primary title">{{title}}</h1>
+      <div class="input-group-prepend">
+        <input class="form-control" type="text" #todo (keyup.enter)="AddToList(todo.value); todo.value='' " name="todo"/>
+        <span class="input-group-text add-button" (click)="AddToList(todo.value)"><i class="material-icons">add</i></span>        
+      </div>
+    </div>
+    <div class="list-wrapper">
+      <ul class="list">
+        <li class="list-item" *ngFor="let todo of todoArray">{{todo}}<i (click)="DeleteItem(todo)" class="material-icons delete-icon">delete</i></li>
+      </ul>
+    </div>
+
+    <div class="result-container">      
+      <button type="submit" (click)="Choose()" class="btn btn-primary choose">Välj åt mig</button>
+      <h2 *ngIf="show">Jag har bestämt mig för: <span class="choosen">{{choosenOne}}</span></h2>
+    </div>  
+</div>

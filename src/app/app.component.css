@@ -1,0 +1,82 @@
+/*Google fonts*/@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body { 
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+    font-family: "Raleway";
+    color: #ffffff !important;
+    max-width: 30em;
+    margin: 2em auto;
+    position: relative;    
+}
+
+.add-button {
+    background-color: #00a800 !important;
+    border-color: #00a800 !important;
+}
+
+.list-wrapper {    
+    position: relative;
+}
+
+.list {
+    list-style: none;
+    padding: 0;    
+}
+
+.list-item {
+    border-radius: 2px;
+    background-color: #bab5b5;
+    margin: 1rem 0;
+    position: relative;
+    line-height: 1.7;
+    padding-left: 1rem;
+    height: 2rem;
+}
+
+.delete-icon {
+    position: absolute;
+    right: 0;
+    top: 4px;
+}
+
+.result-container {    
+    position: relative;
+    text-align: center;    
+}
+
+.h2 {
+    color: #FFFFFF;
+}
+
+.choosen {
+    color: #FFFFFF;
+}
+
+.choose {
+    margin: 1em 6em;    
+    background-color: #00a800 !important;
+    border-color: #00a800 !important;
+}
+
+@media (min-width: 992px) {
+
+    .title {
+        padding: 0em 3em;
+    }
+
+    .input-group-prepend {
+        margin: 1em 6em;
+    }
+
+    .list-wrapper {
+        margin: 1em 6em;     
+    }
+
+    .result-container {
+        margin: 1em 6em;
+    }
+ }   
