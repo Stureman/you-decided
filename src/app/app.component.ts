@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Bestäm du!';
+  title = 'Hjälp mig välja!';
   todoArray=[];
   choosenOne = null;
   show = false;

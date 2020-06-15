@@ -14,8 +14,9 @@ body {
 }
 
 .add-button {
-    background-color: #00a800 !important;
-    border-color: #00a800 !important;
+    background-color: #d9d7cc !important;
+    border-color: #d9d7cc !important;
+    margin-left: 0.5rem;
 }
 
 .list-wrapper {    
@@ -29,17 +30,18 @@ body {
 
 .list-item {
     border-radius: 2px;
-    background-color: #bab5b5;
+    background-color: #d9d7cc;
     margin: 1rem 0;
     position: relative;
-    line-height: 1.7;
+    line-height: 2;
     padding-left: 1rem;
     height: 2rem;
+    font-family: "Raleway";
 }
 
 .delete-icon {
     position: absolute;
-    right: 0;
+    right: 4px;
     top: 4px;
 }
 
@@ -48,18 +50,22 @@ body {
     text-align: center;    
 }
 
-.h2 {
-    color: #FFFFFF;
+.choice {
+    color: #FFFFFF !important;
+    font-family: "Raleway";
 }
 
 .choosen {
     color: #FFFFFF;
+    font-family: "Raleway";
 }
 
 .choose {
     margin: 1em 6em;    
-    background-color: #00a800 !important;
-    border-color: #00a800 !important;
+    background-color: #d9d7cc !important;
+    border-color: #d9d7cc !important;
+    color: black !important;
+    font-family: "Raleway";
 }
 
 @media (min-width: 992px) {
