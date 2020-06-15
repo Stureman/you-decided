@@ -3,7 +3,7 @@
       <h1 class="text-center text-primary title">{{title}}</h1>
       <div class="input-group-prepend">
         <input class="form-control" type="text" #todo (keyup.enter)="AddToList(todo.value); todo.value='' " name="todo"/>
-        <span class="input-group-text add-button" (click)="AddToList(todo.value)"><i class="material-icons">add</i></span>        
+        <span class="input-group-text add-button" (click)="AddToList(todo.value); todo.value='' "><i class="material-icons">add</i></span>        
       </div>
     </div>
     <div class="list-wrapper">
